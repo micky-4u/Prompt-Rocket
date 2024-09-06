@@ -4,11 +4,12 @@ body {
 
 
 .home{
-    height: 120vh;
+    height: 160vh;
+    position: relative;
 }
 
 .home-content{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background: linear-gradient(135deg, #000,blue) ;
     display: flex;
@@ -29,6 +30,24 @@ body {
     width: 40%;
     color: #fff;
     gap: 30px;
+}
+
+.mid button{
+    height: 40px;
+    width: 150px;
+    margin-right: 50px;
+    color: blue;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.mid button:nth-child(2){
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff
 }
 
 .left, .right{
