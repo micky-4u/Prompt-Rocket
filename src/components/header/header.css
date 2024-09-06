@@ -1,0 +1,36 @@
+.nav{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 95px;
+    background-color: transparent;
+    align-items: center;
+    margin: none;
+    position:fixed;
+    top:0;
+}
+.nav .nav-logo{
+    margin-left: 50px;
+}
+.nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+.nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    color:#fff;
+}
+
+.nav .sign-up button{
+    height: 40px;
+    width: 150px;
+    margin-right: 50px;
+    color: blue;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
