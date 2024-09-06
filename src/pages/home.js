@@ -23,6 +23,8 @@ const Home = ()=>{
                 <div className="right"></div>
 
             </div>
+            <img className="pc" src="" alt="pc image" />
+            <div className="bottom-btn" ></div>
         </div>
     )
 }

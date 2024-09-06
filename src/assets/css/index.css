@@ -6,8 +6,27 @@ body {
 .home{
     height: 160vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
+.bottom-btn{
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    width: 500px;
+    background-color: #000;
+    right: 30%;
+}
+
+.pc{
+    height: 500px;
+    width: 60%;
+    background-color: #000;
+    position: absolute;
+    bottom: 50px;
+    right: 20%;
+}
 .home-content{
     height: 90vh;
     width: 100%;
