@@ -30,7 +30,7 @@ body {
     object-fit: contain;
 }
 .home-content{
-    height: 100vh;
+    height: 600px;
     width: 100%;
     background: linear-gradient(135deg, #4879F5,#3B36ED,#3B36ED,#4879F5) ;
     display: flex;
@@ -56,10 +56,16 @@ body {
     gap: 30px;
 }
 
+.mid div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly
+
+
+}
 .mid button{
     height: 40px;
     width: 150px;
-    margin-right: 50px;
     color: #498AFE;
     background-color: #fff;
     outline: none;
