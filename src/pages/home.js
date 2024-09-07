@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/css/index.css"
+import pc from "../assets/images/pc.png"
 const Home = ()=>{
 
     return(
@@ -23,7 +24,7 @@ const Home = ()=>{
                 <div className="right"></div>
 
             </div>
-            <img className="pc" src="" alt="pcimage" />
+            <img className="pc" src={pc} alt="pcimage" />
             <div className="bottom-btn" ></div>
         </div>
     )

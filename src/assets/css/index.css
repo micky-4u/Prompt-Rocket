@@ -25,7 +25,6 @@ body {
 .pc{
     height: 500px;
     width: 60%;
-    background-color: #000;
     position: absolute;
     bottom: 50px;
     right: 20%;
@@ -49,7 +48,7 @@ body {
 }
 
 .mid{
-    width: 40%;
+    width: 45%;
     color: #fff;
     gap: 30px;
 }
