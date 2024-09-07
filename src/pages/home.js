@@ -10,7 +10,7 @@ const Home = ()=>{
         <div className="home">
             <div className="home-content">
                 <div className="left">
-                    <img src={left} />
+                    <img src={left} alt="left"/>
                 </div>
                 <div className="mid">
                     <h1>Enjoy the power and more</h1>
@@ -27,7 +27,7 @@ const Home = ()=>{
                     </div>
                 </div>
                 <div className="right">
-                    <img src={right} />
+                    <img src={right} alt="right" />
                 </div>
 
             </div>
