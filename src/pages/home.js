@@ -17,14 +17,17 @@ const Home = ()=>{
 
                     </p>
                     <div>
-                        <button>Right</button>
-                        <button>Left</button>
+                        <button>Get Started</button>
+                        <button>Learn more</button>
                     </div>
                 </div>
                 <div className="right"></div>
 
             </div>
-            <img className="pc" src={pc} alt="pcimage" />
+            <div className="pc">
+
+                <img src={pc} alt="pcimage" />
+            </div>
             <div className="bottom-btn" ></div>
         </div>
     )

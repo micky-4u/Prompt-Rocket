@@ -7,30 +7,30 @@ body {
 
 
 .home{
-    height: 160vh;
-    position: relative;
     display: flex;
     flex-direction: column;
 }
 
 .bottom-btn{
-    position: absolute;
-    bottom: 0;
     height: 40px;
     width: 500px;
     background-color: #000;
-    right: 30%;
 }
 
 .pc{
     height: 500px;
-    width: 60%;
-    position: absolute;
-    bottom: 50px;
-    right: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+.pc img{
+    object-fit: contain;
 }
 .home-content{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     background: linear-gradient(135deg, #4879F5,#3B36ED,#3B36ED,#4879F5) ;
     display: flex;
