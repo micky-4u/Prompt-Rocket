@@ -6,7 +6,7 @@
     background-color: transparent;
     align-items: center;
     margin: none;
-    position:fixed;
+    position:absolute;
     top:0;
     z-index: 1;
 }
