@@ -1,12 +1,17 @@
 import React from "react";
 import "../assets/css/index.css"
 import pc from "../assets/images/pc.png"
+import left from "../assets/images/left.png"
+import right from "../assets/images/right.png"
+
 const Home = ()=>{
 
     return(
         <div className="home">
             <div className="home-content">
-                <div className="left"></div>
+                <div className="left">
+                    <img src={left} />
+                </div>
                 <div className="mid">
                     <h1>Enjoy the power and more</h1>
                     <p>
@@ -21,7 +26,9 @@ const Home = ()=>{
                         <button>Learn more</button>
                     </div>
                 </div>
-                <div className="right"></div>
+                <div className="right">
+                    <img src={right} />
+                </div>
 
             </div>
             <div className="pc">

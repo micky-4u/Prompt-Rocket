@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -150px;
+    margin-top: -190px;
 }
 
 .pc img{
@@ -46,7 +46,10 @@ body {
     text-align: center;
     
 }
-
+.left, .right img{
+    object-fit: contain;
+    
+}
 .mid{
     width: 45%;
     color: #fff;
