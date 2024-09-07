@@ -1,5 +1,8 @@
 body {
     margin: 0;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 
@@ -30,7 +33,7 @@ body {
 .home-content{
     height: 90vh;
     width: 100%;
-    background: linear-gradient(135deg, #000,blue) ;
+    background: linear-gradient(135deg, #4879F5,#3B36ED,#3B36ED,#4879F5) ;
     display: flex;
     padding-top: 120px;
     display: flex;
@@ -55,7 +58,7 @@ body {
     height: 40px;
     width: 150px;
     margin-right: 50px;
-    color: blue;
+    color: #498AFE;
     background-color: #fff;
     outline: none;
     border: none;
@@ -64,7 +67,7 @@ body {
 }
 
 .mid button:nth-child(2){
-    background: transparent;
+    background: #4465F3;
     border: 1px solid #fff;
     color: #fff
 }

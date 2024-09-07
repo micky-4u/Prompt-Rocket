@@ -23,7 +23,7 @@ const Home = ()=>{
                 <div className="right"></div>
 
             </div>
-            <img className="pc" src="" alt="pc image" />
+            <img className="pc" src="" alt="pcimage" />
             <div className="bottom-btn" ></div>
         </div>
     )
