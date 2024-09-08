@@ -3,7 +3,7 @@ import "../assets/css/index.css"
 import pc from "../assets/images/pc.png"
 import left from "../assets/images/left.png"
 import right from "../assets/images/right.png"
-
+import Footer from "../components/footer/footer";
 const Home = ()=>{
 
     return(
@@ -103,6 +103,8 @@ const Home = ()=>{
                 </div>
             </div>
 
+
+        <Footer />
         </div>
     )
 }
