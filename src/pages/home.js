@@ -35,7 +35,76 @@ const Home = ()=>{
 
                 <img src={pc} alt="pcimage" />
             </div>
-            <div className="bottom-btn" ></div>
+            <div className="bottom-btn" >
+                <div>
+                    <p>Download button</p>
+                </div>
+            </div>
+
+            <div className="article">
+                <div>
+                    <div className="circle"></div>
+                </div>
+                <div>
+                    <h1>
+                        Improved Banking Experience
+                    </h1>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.N
+                        eque magnam mollitia architecto delectus voluptatem, nam, 
+                        praesentium voluptatum id est ex officia laboriosam consectetur 
+                    </p>
+
+                    <div>
+                        <p>Learn More</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="article reverse">
+                <div>
+                    <div className="circle"></div>
+                </div>
+                <div>
+                    <h1>
+                        Know your business
+                    </h1>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.N
+                        eque magnam mollitia architecto delectus voluptatem, nam, 
+                        praesentium voluptatum id est ex officia laboriosam consectetur 
+                    </p>
+                    <ul>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                    <div>
+                        <p>Learn More</p>
+                    </div>
+                </div>
+            </div>
+
+            <div className="article">
+                <div>
+                    <div className="circle"></div>
+                </div>
+                <div>
+                    <h1>
+                        Improved Banking Experience
+                    </h1>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.N
+                        eque magnam mollitia architecto delectus voluptatem, nam, 
+                        praesentium voluptatum id est ex officia laboriosam consectetur 
+                    </p>
+
+                    <div>
+                        <p>Learn More</p>
+                    </div>
+                </div>
+            </div>
+
         </div>
     )
 }

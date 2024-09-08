@@ -12,11 +12,21 @@ body {
 }
 
 .bottom-btn{
-    height: 40px;
-    width: 500px;
-    background-color: #000;
+    height: 60px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.bottom-btn div{
+    width: 20%;
+    background-color: #000;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+}
 .pc{
     height: 500px;
     width: 100%;
@@ -82,4 +92,54 @@ body {
 
 .left, .right{
     width: 20%;
+}
+
+.article, .reverse{
+    display: flex;
+    height: 500px;
+    align-items: center;
+
+    & div:nth-child(1){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        position: relative;
+        z-index: 1;
+
+
+        & .circle{
+            height: 400px;
+            width: 400px;
+            border-radius: 50%;
+            background-color: #000;
+        }
+    }
+
+    
+
+    & div:nth-child(2){
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100%;
+
+        & h1{
+            font-weight: 800;
+            width: 190px;
+        }
+    }
+    & div:nth-child(2)::before{
+        width: 10%;
+        background-color: #000;
+        content: "";
+        height: 5px;
+    }
+}
+
+
+.reverse{
+    flex-direction: row-reverse;
+    padding-left: 50px;
 }
