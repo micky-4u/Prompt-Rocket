@@ -64,12 +64,19 @@ body {
     width: 45%;
     color: #fff;
     gap: 30px;
+
+    & h1{
+        font-weight: 800px;
+        font-size: 50px;
+        margin: 0;
+    }
 }
 
 .mid div{
     width: 100%;
     display: flex;
-    justify-content: space-evenly
+    justify-content: center;
+    gap: 20px;
 
 
 }
@@ -98,6 +105,8 @@ body {
     display: flex;
     height: 500px;
     align-items: center;
+    margin-top: 30px;
+    
 
     & div:nth-child(1){
         display: flex;
@@ -129,6 +138,10 @@ body {
             font-weight: 800;
             width: 190px;
         }
+
+        & p{
+            width: 200px;
+        }
     }
     & div:nth-child(2)::before{
         width: 10%;
@@ -141,5 +154,7 @@ body {
 
 .reverse{
     flex-direction: row-reverse;
-    padding-left: 50px;
+    margin-top: 60px;
+    margin-left: 183px;
+
 }
