@@ -4,6 +4,8 @@ import pc from "../assets/images/pc.png"
 import left from "../assets/images/left.png"
 import right from "../assets/images/right.png"
 import Footer from "../components/footer/footer";
+import Member from "../components/member/member";
+
 const Home = ()=>{
 
     return(
@@ -105,6 +107,15 @@ const Home = ()=>{
             <div className="team">
 
                 <h1>Meet the team</h1>
+                <div className="members">
+                    <Member role ="CEO" name="Jonathan Mensah"/>
+                    <Member role ="CEO" name="Jonathan Mensah"/>
+                    <Member role ="CEO" name="Jonathan Mensah"/>
+                    <Member role ="CEO" name="Jonathan Mensah"/>
+                    <Member role ="CEO" name="Jonathan Mensah"/>
+
+                    
+                </div>
                 <div className="mail">
                     <div>
                         <h3>Let's get you started</h3>
