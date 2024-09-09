@@ -102,6 +102,22 @@ const Home = ()=>{
                     </div>
                 </div>
             </div>
+            <div className="team">
+
+                <h1>Meet the team</h1>
+                <div className="mail">
+                    <div>
+                        <h3>Let's get you started</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        </p>
+                    </div>
+                    <div>
+                        <input type="mail" placeholder="Your email...." />
+                        <button>Make an enquiry</button>
+                    </div>
+                </div>
+            </div>
 
 
         <Footer />
