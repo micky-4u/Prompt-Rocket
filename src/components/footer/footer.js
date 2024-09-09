@@ -19,10 +19,10 @@ const Footer =() =>{
                 </div>
                 <div>
                     <div>
+                        <ul>
                         <h4>
                             Why Prompt
                         </h4>
-                        <ul>
                             <li>Blogs</li>
                             <li>Affiliated Programs</li>
                             <li>Partner Programs</li>
@@ -30,10 +30,10 @@ const Footer =() =>{
                         </ul>
                     </div>
                     <div>
+                        <ul>
                         <h4>
                             Company
                         </h4>
-                        <ul>
                             <li>About</li>
                             <li>FAQs</li>
                             <li> Community</li>
@@ -41,10 +41,10 @@ const Footer =() =>{
                         </ul>
                     </div>
                     <div>
+                        <ul>
                         <h4>
                             Contacts
                         </h4>
-                        <ul>
                             <li>prompt@gmail.com</li>
                             <li>+233 (0) 55 656 3567 </li>
                             <li>Partner </li>
@@ -58,9 +58,12 @@ const Footer =() =>{
             </div>
             <div className="bottom-section">
                 <div>
-                    <p>&copy; copyright 2024</p>
-                    <p>Privacy</p>
-                    <p>Terms</p>
+
+                    <div>
+                        <p>&copy; copyright 2024</p>
+                        <p>Privacy</p>
+                        <p>Terms</p>
+                    </div>
                 </div>
                 
             </div>
