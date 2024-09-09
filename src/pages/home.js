@@ -108,11 +108,11 @@ const Home = ()=>{
 
                 <h1>Meet the team</h1>
                 <div className="members">
-                    <Member role ="CEO" name="Jonathan Mensah"/>
-                    <Member role ="CEO" name="Jonathan Mensah"/>
-                    <Member role ="CEO" name="Jonathan Mensah"/>
-                    <Member role ="CEO" name="Jonathan Mensah"/>
-                    <Member role ="CEO" name="Jonathan Mensah"/>
+                    <Member role_type="CEO" name="Jonathan Mensah"/>
+                    <Member role_type="CEO" name="Jonathan Mensah"/>
+                    <Member role_type="CEO" name="Jonathan Mensah"/>
+                    <Member role_type="CEO" name="Jonathan Mensah"/>
+                    <Member role_type="CEO" name="Jonathan Mensah"/>
 
                     
                 </div>

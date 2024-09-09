@@ -4,12 +4,12 @@ import "./member.css"
 
 
 const Member =(props) =>{
-const {role, name} =props;
+const {role_type, name}=props;
 
 
     return(
         <div className="member">
-        <p>{role}</p>
+        <p>{role_type}</p>
         <h4>{name}</h4>
         </div>
     )
