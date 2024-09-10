@@ -54,7 +54,7 @@
         display: flex;
         align-items: center;
         margin-top: 30px;
-        margin-bottom: 200px;
+        margin-bottom: 100px;
         overflow: hidden;
         padding:0;
         width: 100%;
@@ -102,14 +102,45 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
+            align-items: flex-start;
+            text-align: left;
             height: 100%;
             width: 60%;
+            position: relative;
             & p{
                 width: 200px;
                 font-size: 13px;
             }
             
+            & go{
+                display: block;
+                font-size: 13px;
+                width:30px;
+                margin-top: 15px;
+            }
+            h1{
+                position: relative;
+            }
+
+            & ul{
+                width: 100%;
+                margin: 0;
+            }
+            & ul li{
+                width:100%;
+                margin:0;
+                margin-left: -20px;
+            }
     
+        }
+        & .h1::before{
+            width: 13%;
+            background-color: #5491FE;
+            content: "";
+            height: 3px;
+            left: 0;
+            position: absolute;
+            
         }
     }
     
@@ -146,6 +177,10 @@
     .reverse{
         flex-direction: row-reverse;
         margin-top: 60px;
+
+        & .art-content{
+            margin-left: 20px;
+        }
     }    
 
     

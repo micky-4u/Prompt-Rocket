@@ -94,7 +94,7 @@ const Home = ()=>{
                         <li>Lorem ipsum</li>
                     </ul>
                     <div>
-                        <p>Learn More</p>
+                        <go>Learn More</go>
                     </div>
                 </div>
             </div>
