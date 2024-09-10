@@ -51,7 +51,7 @@ const Home = ()=>{
             </div>
 
             <div className="article1">
-                <div>
+                <div className="art-image">
                     <div className="circle">
 
                     </div>
@@ -60,7 +60,7 @@ const Home = ()=>{
                         <img src={frame1} alt="pic" />
                     </div>
                 </div>
-                <div>
+                <div className="art-content">
                     <h1>
                         Improved Banking Experience
                     </h1>
@@ -76,13 +76,13 @@ const Home = ()=>{
             </div>
 
             <div className="article2 reverse">
-                <div>
+                <div className="art-image">
                     <div className="circle"></div>
                     <div className="image">
                         <img src={frame2} alt="pic" />
                     </div>
                 </div>
-                <div>
+                <div className="art-content">
                     <h1>
                         Know your business
                     </h1>
@@ -102,13 +102,13 @@ const Home = ()=>{
             </div>
 
             <div className="article3">
-                <div>
+                <div className="art-image">
                     <div className="circle"></div>
                     <div className="image">
                         <img src={frame3} alt="pic" />
                     </div>
                 </div>
-                <div>
+                <div className="art-content">
                     <h1>
                         Improved Banking Experience
                     </h1>
