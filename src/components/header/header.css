@@ -49,3 +49,20 @@
     border: none;
     border-radius: 5px;
 }
+
+
+@media screen and (max-width:768px){
+    
+    .nav h1{
+        display: none;
+    }
+
+    .nav ul{
+        display: none;
+    }
+    .nav .sign-up button{
+        display: none;
+    }
+
+
+}

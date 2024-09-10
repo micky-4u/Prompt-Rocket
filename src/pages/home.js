@@ -23,8 +23,6 @@ const Home = ()=>{
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.N
                         eque magnam mollitia architecto delectus voluptatem, nam, 
-                        praesentium voluptatum id est ex officia laboriosam consectetur 
-                        molestias reiciendis unde minus, vero maxime aspernatur!
 
                     </p>
                     <div>

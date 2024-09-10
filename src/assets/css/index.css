@@ -49,6 +49,8 @@ h1{
 
 .pc img{
     object-fit: contain;
+    width: 100%;
+    height: 100%;
 }
 .home-content{
     height: 600px;
@@ -112,7 +114,7 @@ h1{
     width: 20%;
 }
 
-.article1, .article12, .article3, .reverse{
+.article1, .article2, .article3, .reverse{
     display: flex;
     height: 500px;
     align-items: center;
@@ -201,7 +203,7 @@ h1{
 
 .article2 .art-image .image img{
     transform: translate(232px,96px) scale(1.9,1.9);
-
+    display: none;
 }
 
 
@@ -219,6 +221,7 @@ h1{
     flex-direction: row-reverse;
     margin-top: 60px;
     margin-left: 183px;
+    margin: 60px 0 183px 0;
 
     & .image{
     }
@@ -272,7 +275,6 @@ h1{
 
         & div:nth-child(2){
             display: flex;
-            width: 35%;
             background-color: #fff;
             height: 40px;
             padding: 10px;
