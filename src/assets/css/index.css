@@ -21,12 +21,21 @@ h1{
     justify-content: center;
 }
 .bottom-btn div{
-    width: 20%;
-    background-color: #000;
+    width: 40%;
+    background-color: #1B2A4E;
     color: #fff;
     height: 40px;
     text-align: center;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    border-radius: 5px;
+
+    & .download{
+        color: #fff;
+    }
 }
 .pc{
     height: 500px;
@@ -102,11 +111,12 @@ h1{
     width: 20%;
 }
 
-.article, .reverse{
+.article1, .article12, .article3, .reverse{
     display: flex;
     height: 500px;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 80px;
 
     color: #1B2A4E;
     
@@ -127,8 +137,19 @@ h1{
             height: 400px;
             width: 400px;
             border-radius: 50%;
-            background-color: #000;
         }
+
+        & .image{
+            height: 400px;
+            width:600px;
+            z-index: 2;
+            position: absolute;
+
+            & img{
+            }
+        }
+
+
     }
 
     
@@ -157,12 +178,44 @@ h1{
     }
 }
 
+.article1 div:nth-child(1) .circle{
+    background-color:#6349FE ;
+}
+
+.article1 div:nth-child(1) .image img{
+    transform: translate(-144px,54px);
+
+}
+
+
+.article2 div:nth-child(1) .circle{
+    background-color:#FEBD49 ;
+}
+
+.article2 div:nth-child(1) .image img{
+    transform: translate(144px,54px);
+
+}
+
+
+.article3 div:nth-child(1) .circle{
+    background-color:#FE49E4 ;
+}
+
+.article3 div:nth-child(1) .image img{
+    transform: translate(-144px,54px);
+
+}
+
 
 .reverse{
     flex-direction: row-reverse;
     margin-top: 60px;
     margin-left: 183px;
 
+    & .image{
+        display: none;
+    }
 }
 
 

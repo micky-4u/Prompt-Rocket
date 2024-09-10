@@ -2,6 +2,10 @@ import React from "react";
 import "../assets/css/index.css"
 import pc from "../assets/images/pc.png"
 import left from "../assets/images/left.png"
+import frame2 from "../assets/images/frame2.png"
+import frame1 from "../assets/images/frame1.png"
+import frame3 from "../assets/images/frame3.png"
+
 import right from "../assets/images/right.png"
 import Footer from "../components/footer/footer";
 import Member from "../components/member/member";
@@ -39,13 +43,22 @@ const Home = ()=>{
             </div>
             <div className="bottom-btn" >
                 <div>
-                    <p>Download button</p>
+
+                <p>Download community FS handbook </p>
+                <box-icon color="#fff" className="download" name='download'></box-icon>
                 </div>
+
             </div>
 
-            <div className="article">
+            <div className="article1">
                 <div>
-                    <div className="circle"></div>
+                    <div className="circle">
+
+                    </div>
+                    
+                    <div className="image">
+                        <img src={frame1} alt="pic" />
+                    </div>
                 </div>
                 <div>
                     <h1>
@@ -62,9 +75,12 @@ const Home = ()=>{
                 </div>
             </div>
 
-            <div className="article reverse">
+            <div className="article2 reverse">
                 <div>
                     <div className="circle"></div>
+                    <div className="image">
+                        <img src={frame2} alt="pic" />
+                    </div>
                 </div>
                 <div>
                     <h1>
@@ -85,9 +101,12 @@ const Home = ()=>{
                 </div>
             </div>
 
-            <div className="article">
+            <div className="article3">
                 <div>
                     <div className="circle"></div>
+                    <div className="image">
+                        <img src={frame3} alt="pic" />
+                    </div>
                 </div>
                 <div>
                     <h1>
