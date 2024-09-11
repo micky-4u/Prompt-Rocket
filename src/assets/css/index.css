@@ -183,6 +183,13 @@ h1{
         & p{
             width: 200px;
         }
+
+        & div{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 30px;
+        }
     }
     & .art-content::before{
         width: 10%;

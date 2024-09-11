@@ -68,7 +68,8 @@ const Home = ()=>{
                     </p>
 
                     <div>
-                        <p>Learn More</p>
+                        <go>Learn more</go>
+                        <box-icon name='right-arrow-alt' size="xs"></box-icon>
                     </div>
                 </div>
             </div>
@@ -94,7 +95,8 @@ const Home = ()=>{
                         <li>Lorem ipsum</li>
                     </ul>
                     <div>
-                        <go>Learn More</go>
+                        <go>Learn more</go>
+                        <box-icon name='right-arrow-alt' size="xs"></box-icon>
                     </div>
                 </div>
             </div>
@@ -117,7 +119,8 @@ const Home = ()=>{
                     </p>
 
                     <div>
-                        <p>Learn More</p>
+                        <go>Learn More</go>
+                        <box-icon name='right-arrow-alt' size="xs"></box-icon>
                     </div>
                 </div>
             </div>

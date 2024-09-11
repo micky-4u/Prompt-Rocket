@@ -64,6 +64,11 @@ const Footer =() =>{
                         <p>Privacy</p>
                         <p>Terms</p>
                     </div>
+                    <div>
+                    <box-icon name='facebook' type='logo' color="#fff" ></box-icon>
+                    <box-icon name='linkedin' type='logo'  color="#fff"></box-icon>
+                    <box-icon name='instagram' type='logo'color="#fff" ></box-icon>
+                    </div>
                 </div>
                 
             </div>
