@@ -72,24 +72,7 @@
     width: 80%;
     height: 350px;
     
-    & div:nth-child(1){
-        
-    }
     & div:nth-child(2){
-        display: flex;
-        width: 60%;
-        margin-right: 20px;
-        
-        
-        & div{
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            text-align: left;
-            align-items: center;
-            
-            
-        }
     }
 
 
@@ -112,6 +95,28 @@
     }
 
 }
+.footer .top-section div:nth-child(2){
+    display: flex;
+    width: 60%;
+    margin-right: 20px;
+    
+    
+    & div{
+        
+        
+    }
+
+}
+
+.footer .top-section div:nth-child(2) div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    align-items: center;
+
+}
+
 
 
 @media screen and (max-width:786px){
