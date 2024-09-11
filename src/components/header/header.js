@@ -22,6 +22,9 @@ const Header = () =>{
             <div  className="sign-up">
                 <button>Sign up</button>
             </div>
+            <div className="menu-icon">
+                <box-icon name='menu-alt-right' color='#fff' size="md"></box-icon>
+            </div>
         </div>
     )
 }
