@@ -186,11 +186,12 @@
     
     .team{
         width: 100%;
-        display: none;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-bottom: 50px;
+        overflow: hidden;
     
         & h1{
             color: #1B2A4E;
@@ -198,14 +199,17 @@
         }
     
         & .mail{
-            width: 80%;        
+            width: 90%;        
             background-color: #1B2A4E;
-            height:150px;
+            height:174px;
             border-radius: 10px;
             color:#fff;
             display: flex;
+            flex-direction: column;
             justify-content: center;
-            align-items: center;
+            padding: 10px;
+        
+            align-items: flex-start;
     
             & p{
                 font-size: 13px;
@@ -214,12 +218,13 @@
     
             & h3{
                 margin: 0;
+                width: 100%;
             }
     
             & div:nth-child(1){
                 display: flex;
                 flex-direction: column;
-                width: 45%;
+                width: 100%;
             }
     
             & input{
@@ -231,20 +236,22 @@
     
             & div:nth-child(2){
                 display: flex;
-                width: 35%;
+                width: 90%;
                 background-color: #fff;
-                height: 40px;
+                height: 20px;
                 padding: 10px;
-                border-radius: 5px;
+                border-radius: 2px;
                 justify-content: space-between;
+                align-items: center;
     
     
                 & button{
                     width: 50%;
                     border: none;
                     background-color: #4465F3;
-                    border-radius: 5px;
+                    border-radius: 2px;
                     color: #fff;
+                    height: 25px;
                 }
             }
     
@@ -254,10 +261,10 @@
         .members{
             width: 100%;
             display: flex;
-            justify-content: center;
-            align-items: center;
             gap: 5px;
-            overflow: hidden;
+            overflow: auto;
+            white-space: nowrap;
+    
     
             margin-bottom: 150px;
         }
